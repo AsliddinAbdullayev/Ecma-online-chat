@@ -1,0 +1,494 @@
+
+.gurup {
+    background-color: #f8f8f8;
+    padding: 0 5px 0 5px;
+}
+
+.active {
+    border-right: 0 solid transparent !important;
+}
+
+.icon-div {
+    width: 40px;
+    height: 40px;
+    background-color: #F8F8F8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.text-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/************************************tab-content-left************************************/
+.active p {
+    color: #262626 !important;
+    opacity: 1 !important;
+
+}
+
+.active {
+    background-color: transparent !important;
+}
+
+.nav-link p {
+    margin-left: 17.38px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: #262626;
+    opacity: 0.3;
+    margin-top: 13px;
+}
+
+.center-card {
+    margin-left: 30px;
+}
+
+.nav-link {
+    width: 210px;
+    height: 45px;
+    border-right: 3px solid transparent !important;
+    margin-bottom: 10px;
+    border-radius: 0 !important;
+}
+
+
+.active {
+    border-right: 3px solid #00B533 !important;
+}
+
+
+/************************************tab-content-center************************************/
+
+.center-tab {
+    width: 130.4px;
+    height: 68px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: #000000;
+    padding-left: 35px;
+    padding-top: 20px;
+    border-bottom: 3px solid #dfdfdf;
+    opacity: 0.3;
+    cursor: pointer;
+    transition: 0.3s;
+    border-right: 0 !important;
+}
+
+.center-tab:hover {
+    border-bottom: 3px solid #00B533;
+}
+
+.brno {
+    border-right: 1px solid transparent !important;
+}
+
+.center-text {
+    font-size: 30px;
+}
+
+/************************************messege-red************************************/
+
+.messege-red-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    background-color: #DE1E3A;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
+.messege-red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    background-color: #DE1E3A;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: -12px;
+    margin-left: 9px;
+}
+
+
+.messege-red:hover {
+
+}
+
+/************************************vazifalar-tab-content************************************/
+
+.search-tab {
+    width: 220px;
+    outline: none;
+    border: 0;
+    margin-left: 14.4px;
+    background-color: #f8f8f8;
+}
+
+
+.card-name {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin: 5px 0 0 10px;
+}
+
+.salom {
+    font-family: SF Pro Display;
+
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.3;
+    margin-left: 10px;
+}
+
+.big-card {
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.big-card:hover {
+    background-color: #00B533;
+    color: white !important;
+
+
+}
+
+.big-card:hover h6 {
+    color: white;
+}
+
+.big-card:hover span {
+    background-color: white;
+    color: #00B533;
+}
+
+.big-card:hover b {
+    color: white;
+}
+
+.big-card:hover i {
+    color: white;
+}
+
+
+/************************************messege-sarts-div************************************/
+.start-div-w {
+    min-width: 80px;
+    height: 125px;
+    background: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #e0dcdc;
+}
+
+.start-div {
+    min-width: 80px;
+    height: 125px;
+    background: #f8f8f8;
+    opacity: 0.5;
+    padding: 10px;
+    border: 1px solid #e0dcdc;
+}
+
+.start-div img {
+    margin-left: 10px;
+}
+
+.start-div-w img {
+    margin-left: 10px;
+}
+
+.start-footer-text {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    padding: 5px;
+}
+
+.start-footer-number {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    padding: 10px 0 0 6px;
+
+}
+
+
+/************************************progres-bar-style************************************/
+.mur-text {
+    padding: 20px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+.oquv-text {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    padding: 23px 17px 0px 29px;
+
+}
+
+.progress-bar {
+    width: 75px;
+    height: 6px;
+    background: linear-gradient(269.93deg, #FFB436 -7.99%, #F7798B 10.05%);
+    border-radius: 100px;
+}
+
+.progress-bar-big {
+    position: absolute;
+    width: 148px;
+    height: 9px;
+    background: #898989;
+    opacity: 0.1;
+    border-radius: 100px;
+}
+
+
+.card-message {
+    width: 377px;
+    height: 120px;
+    background: #F8F8F8;
+    border-radius: 15px;
+    margin: 90px 0 0 22px;
+    padding: 20px 0 0 16px;
+}
+
+
+.card-message-3 {
+    width: 377px;
+    height: 120px;
+    background: #F8F8F8;
+    border-radius: 15px;
+    margin: 0px 0 0 22px;
+    padding: 20px 0 0 16px;
+}
+
+.card-message h6 {
+    margin-left: 10px;
+}
+
+
+.card-message-3 h6 {
+    margin-left: 10px;
+}
+
+.i-clock {
+    font-family: SF Pro Display;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 302px;
+}
+
+.i-clock-3 {
+    font-family: SF Pro Display;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 252px;
+}
+
+.i-clock-y {
+    font-family: SF Pro Display;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 368px;
+}
+
+
+.card-message-y {
+    width: 377px;
+    height: 120px;
+    background: rgba(255, 180, 54, 0.08);
+    border-radius: 15px;
+    margin: 30px 0 0 140px;
+    padding: 20px 0 0 16px;
+}
+
+.card-message-y-3 {
+    width: 377px;
+    height: 120px;
+    background: rgba(255, 180, 54, 0.08);
+    border-radius: 15px;
+    margin: 0 0 0 0;
+    padding: 20px 0 0 16px;
+}
+
+.card-message-y h6 {
+    margin-left: 10px;
+}
+
+
+.input-messega {
+    outline: none;
+    border: 0;
+    width: 80%;
+    height: 40px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    color: #898989;
+    margin: 0 51px 0 10px;
+
+}
+
+
+/************************************rigt-card-style************************************/
+
+.card-div {
+    margin-left: 5px;
+}
+
+.otish-div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+    margin: 0 0 0 40px;
+}
+
+.border-card {
+    border: 1px solid #F8F8F8;
+}
+
+.otish-text {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    text-align: center;
+    margin: 5px 0px 0px 29px;
+
+}
+
+.starts-big {
+    justify-content: center;
+    width: 22.83px;
+    margin-left: 21.17px;
+}
+
+.footer-div-hr {
+    width: 2px;
+    height: 98px;
+    background: #00B533;
+    margin: 0px 13px 0 8px;
+}
+
+.savol-text {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin: 1px 0 0 10px;
+}
+
+
+.yellow-card-div {
+    width: 40px;
+    height: 40px;
+    background: #FFB436;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.text-javob {
+    margin-left: 10px;
+}
+
+
+.right-button {
+    width: 102px;
+    height: 40px;
+}
+
+.kom-img {
+    width: 50px;
+    height: 50px;
+}
+
+.fig-border {
+    border: 1px solid #F8F8F8;
+    margin: 52px 0 0 -2px !important;
+}
+
+.hr-top {
+    background-color: #dbd9d9;
+}
+
+.line-2 {
+    padding: 0 20px 0 20px;
+}
+
+.pdp-logo {
+    position: absolute;
+
+}
+
+.border-left {
+    position: absolute;
+    width: 1px;
+    height: 500px;
+    background-color: #dbd9d9;
+    top: 40px;
+    left: 256px;
+    z-index: -666666666;
+}
